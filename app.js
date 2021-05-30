@@ -15,7 +15,7 @@ app.use(compression())
 app.use(express.static(`${__dirname}/build`));
 
 app.use( (req, res, next) => {
-    const allowedOrigins = []
+    const allowedOrigins = ["https://www.my-app-wrench.herokuapp.com", "https://my-app-wrench.herokuapp.com"]
     
     const isProd = process.env.NODE_ENV === 'production';
     // Allowed origins to access API

@@ -1,8 +1,8 @@
 # WRNCH
 
 ## DEPENDENCIES
-2. Node > v.14
-3. NPM > v.6
+1. Node > v.14
+2. NPM > v.6
 
 ## HOW TO RUN
 1. Clone this repository
